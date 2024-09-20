@@ -7,6 +7,8 @@
     "test": "nx test"
   },
   "dependencies": {
+    "@aws-sdk/client-sqs": "^3.654.0",
+    "@nestjs/microservices": "^10.4.3",
     "tslib": "^2.3.0"
   },
   "devDependencies": {
@@ -14,6 +16,7 @@
     "@nx/eslint": "19.8.0",
     "@nx/eslint-plugin": "19.8.0",
     "@nx/js": "19.8.0",
+    "@nx/node": "^19.8.0",
     "@nx/vite": "19.8.0",
     "@nx/web": "19.8.0",
     "@nx/workspace": "19.8.0",
