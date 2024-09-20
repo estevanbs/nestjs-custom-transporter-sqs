@@ -21,6 +21,15 @@
     "@nx/vite:test": {
       "cache": true,
       "inputs": ["default", "^production"]
+    },
+    "build": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "lint":{
+      "cache": true
     }
   },
   "plugins": [
