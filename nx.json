@@ -30,5 +30,13 @@
         "targetName": "lint"
       }
     }
-  ]
+  ],
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": ["build", "test", "lint"]
+      }
+    }
+  }
 }
