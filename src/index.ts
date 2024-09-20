@@ -1,1 +1,1 @@
-export * from './lib/nestjs-custom-transporter-sqs';
+export * from './lib/responder/transporters/server-sqs';
