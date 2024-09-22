@@ -1,6 +1,6 @@
 # NestjsCustomTransporterSqs
 
-[NestJS custom transporter](https://docs.nestjs.com/microservices/custom-transport) for [Amazon Simple Queue Service (SQS)](https://aws.amazon.com/pt/sqs/).
+[NestJS custom transporter](https://docs.nestjs.com/microservices/custom-transport) for [Amazon Simple Queue Service (SQS)](https://aws.amazon.com/sqs).
 
 ## How to use
 
