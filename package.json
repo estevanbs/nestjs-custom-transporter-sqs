@@ -1,5 +1,5 @@
 {
-  "name": "@nestjs-custom-transporter-sqs/source",
+  "name": "nestjs-custom-transporter-sqs",
   "version": "0.0.1",
   "license": "MIT",
   "scripts": {
