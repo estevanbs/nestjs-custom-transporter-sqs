@@ -4,7 +4,7 @@
 
 ## How to use
 
-Install this package with
+Install this package with:
 ```bash
 npm i nestjs-custom-transporter-sqs
 ```
@@ -36,7 +36,7 @@ Send a message to the queue with a handler on the body:
 ```json
 {
   "handler": "myHandler",
-    "data": {
+  "data": {
     "foo": "bar"
   }
 }
@@ -53,3 +53,10 @@ The `handler` property on the message is the `EventPattern` of the handler funci
 | messageVisibilityTimeout | The duration (in seconds) that the received messages are hidden from subsequent retrieve requests after being retrieved by a ReceiveMessage request | 60            |
 | maxNumberOfMessages      | The maximum number of messages to return per request on sqs                                                                                         | 10            |
 | waitTimeSeconds          | The duration (in seconds) for which the call waits for a message to arrive in the queue before returning                                            | 20            |
+
+## SqsContext properties
+| Option      | Description                      |
+|-------------|----------------------------------|
+| getMessage  | Returns the original sqs message |
+| getQueueUrl | Returns the queue url            |
+| getPattern  | Returns the name of the pattern  |
